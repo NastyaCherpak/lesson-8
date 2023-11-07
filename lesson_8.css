@@ -127,18 +127,67 @@ body {
     outline: none;
     background-color: rgba(255, 255, 255, 0.01);
     color: #2c71b8;
+    font-size: 21px;
   }
+
   .col-9 button {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 31px;
+    right: 520px;
     width: 30px;
     height: 30px;
     border: none;
     background-color: #2c71b8;
-    
   }
 
-  width: 11px;
-  height: 12px;
-  background-image: url(images/search.png);
+  .btn-search {
+    width: 14px;
+    height: 15px;
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+.btn-basket {
+    position: absolute;
+    top: 34px;
+    right: 455px;
+    width: 20px;
+    height: 20px;
+    background-image:url(images/basket.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: white;
+  }
+
+  .basket {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+  }
+  
+  .info {
+    position: absolute;
+    top: 17px;
+    right: 475px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: #2c71b8;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  .main {
+    height: 400px;
+    background-color: rgba(35, 90, 147, 0.75);
+  }
+ .col-3 filter {
+    height: 840px;
+    width: 270px;
+    background-color: rgba(86, 141, 198, 0.75);
+ }
